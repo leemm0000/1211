@@ -98,7 +98,7 @@ header:hover+.sub_wrap,
 
 /* 배경 */
 body{
-  background: url(/images/bg_0.png) no-repeat bottom / 100%;
+  background: url(images/bg_0.png) no-repeat bottom / 100%;
   
   position: relative; 
 }
@@ -106,7 +106,7 @@ body{
 /* 배경애니메이션 */
 .bgani{}
 .bg_f1{position: absolute; width:159px; height: 225px;
-  background: url(/images/bg_f1.png);
+  background: url(images/bg_f1.png);
   top: 2600px;left: 40px;  scale: .5;
   z-index: -1;
   animation: bgf1 2s linear both infinite;
@@ -120,7 +120,7 @@ background-attachment: fixed;
   100% { transform: rotate(0deg); }
 }
 .bg_f2{position: absolute; width:136px; height: 225px;
-  background: url(/images/bg_f2.png);  
+  background: url(images/bg_f2.png);  
   top: 2700px;left: -5px;  scale: .5;
   animation: bgf2 2s linear both infinite;
   transform-origin: bottom;
@@ -135,7 +135,7 @@ background-attachment: fixed;
 
 
 .bg_f3{position: absolute; width:197px; height: 194px;
-  background: url(/images/bg_f3.png);
+  background: url(images/bg_f3.png);
   top: 2400px;right: 30px;  scale: .5;
   z-index: -1;
   animation: bgf3 2s ease-out both infinite;
@@ -151,7 +151,7 @@ background-attachment: fixed;
  
 
   .bg_f4{position: absolute;width:112px; height: 110px;
-  background: url(/images/bg_f4.png);
+  background: url(images/bg_f4.png);
   top: 2300px;right: 20px;  scale: .5;
    z-index: -1; 
     animation: bgf4 3s ease-out both infinite;
@@ -166,7 +166,7 @@ background-attachment: fixed;
    }
 
   .bg_f5{position: absolute;width:83px; height: 83px;
-  background: url(/images/bg_f5.png) no-repeat;
+  background: url(images/bg_f5.png) no-repeat;
   top: 2180px; right: 20px;  scale: 0.8;
   z-index: -1;
   animation: bgf5 2s ease-out both infinite;
@@ -181,7 +181,7 @@ background-attachment: fixed;
   }
 
   .bg_leaf1{position: absolute;  width:268px; height: 295px;
-  background: url(/images/bg_leaf.png); 
+  background: url(images/bg_leaf.png); 
   top: 1850px;right: -25px;  scale: .7;
   z-index: -1;
   animation: bgl1 3s ease-out both infinite;
@@ -197,7 +197,7 @@ background-attachment: fixed;
 
 
 .bg_leaf2{position: absolute; width:268px; height: 295px;
-  background: url(/images/bg_leaf02.png);
+  background: url(images/bg_leaf02.png);
   top: 2380px;left: 5px;  scale: .7;
   z-index: -1;  
   animation: bgl2 4s ease-out both infinite;
@@ -404,13 +404,13 @@ background-attachment: fixed;
   position: absolute;
   content: '';
   width: 213px;height: 516px; top: 20px;
-  background:url(/images/map_bg.png) no-repeat; 
+  background:url(images/map_bg.png) no-repeat; 
   opacity: 50%; }
   .left::before{
     position: absolute;
     content: '';
     width: 820px; height: 488px;
-    background: url(/images/halftone.png) no-repeat;
+    background: url(images/halftone.png) no-repeat;
     opacity: 10%;
     bottom: -250px; left: -100px;
     transform: rotate(200deg);
@@ -493,7 +493,7 @@ background-attachment: fixed;
 
 .g_card:hover::after{
   content: "";
-  background: url(/images/g_logo.png) no-repeat center center;
+  background: url(images/g_logo.png) no-repeat center center;
   background-size: 60%;
   position: absolute;
   top: 50%; 
@@ -517,7 +517,7 @@ background-attachment: fixed;
 
 .g_card::before {
   content: "";
-  background: url(/images/g_img.png) no-repeat;
+  background: url(images/g_img.png) no-repeat;
   background-position: bottom center; 
   position: absolute;
   inset: 0;
@@ -537,28 +537,28 @@ background-attachment: fixed;
 
 /* 배경이미지 */
 .bg1 {
-  background-image: url('/images/끈끈이대나물.jpg');
+  background-image: url('images/끈끈이대나물.jpg');
 }
 .bg2 {
-  background-image: url('/images/매미꽃.jpg');
+  background-image: url('images/매미꽃.jpg');
 }
 .bg3 {
-  background-image: url('/images/이팝나무.JPG');
+  background-image: url('images/이팝나무.JPG');
 }
 .bg4 {
-  background-image: url('/images/장미원.JPG');
+  background-image: url('images/장미원.JPG');
 }
 .bg5 {
-  background-image: url('/images/매미꽃2.JPG');
+  background-image: url('images/매미꽃2.JPG');
 }
 .bg6 {
-  background-image: url('/images/장미원2.JPG');
+  background-image: url('images/장미원2.JPG');
 }
 .bg7 {
-  background-image: url('/images/영춘화.JPG');
+  background-image: url('images/영춘화.JPG');
 }
 .bg8 {
-  background-image: url('/images/모과나무꽃.JPG');
+  background-image: url('images/모과나무꽃.JPG');
 }
 
 .btn_wrap{width: 100%;}
@@ -600,6 +600,7 @@ padding-top: 20px;}
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
   opacity: 0;
   z-index: 101;
+ 
 }
 #backToTop:hover{
   background-color:var(--sub-color);
@@ -608,15 +609,5 @@ padding-top: 20px;}
 
 }
 
-.btt_f{ 
-width: 2rem; height: 1rem;
-background-color: var(--yellow);
-}
-/* #backToTop::after{
-  content: "";
-  background: url(/images/g_img.png) no-repeat;
-  background-position: top center; 
-  position: absolute;
-}
-  */
+ 
 #backToTop.visible{opacity: 1;}

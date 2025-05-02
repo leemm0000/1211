@@ -46,7 +46,7 @@ header:hover + .sub_wrap,
     position: absolute;
     content: '';
     width: 83px; height: 83px;
-    background: url(/images/bg_f5.png);
+    background: url(images/bg_f5.png);
     opacity: 30%; scale: .8;
     top: 5px; left: 10px;
     animation: bgf1 3s linear both infinite;
@@ -63,7 +63,7 @@ header:hover + .sub_wrap,
     content: '';
     width:146px ; height: 164px;
     bottom:-40px; right: -40px;
-    background: url(/images/menuleaf3.png) no-repeat;
+    background: url(images/menuleaf3.png) no-repeat;
     opacity: 30%; scale: 1.1;
     animation: bgf2 3s linear  infinite;
     transform-origin: bottom;
@@ -126,7 +126,7 @@ header:hover + .sub_wrap,
 
 
 
-  body{background: url(/images/bg_0.png) no-repeat bottom}
+  body{background: url(images/bg_0.png) no-repeat bottom}
 
   /* 배너 */
 .banners_wrap{ width: 80%; }
